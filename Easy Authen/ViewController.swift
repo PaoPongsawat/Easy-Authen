@@ -10,29 +10,43 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //Imlicit
+    let strDicUser = ["master":"12345","dora":"1234"]
     
     
     
     
     
     
+    @IBOutlet weak var UserTextFind: UITextField!
     
+    @IBOutlet weak var PasswordTextFind: UITextField!
     
+    @IBOutlet weak var messageLabel: UILabel!
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    @IBAction func loginButton(_ sender: Any) {
+        
+        //Get Value From TextField
+        let strUser: String = UserTextFind.text!
+        let strPassword: String = PasswordTextFind.text!
+        
+       print("User ==> \(strUser)")
+       print("Password ==> \(strPassword)")
+        
+        
+        //Check User
+        if let strMyUser = strDicUser[strUser] {
+            print("User OK")
+        }else{
+            print("User False")
+        }
+        
+        
+        
+        
+        
+        
+    } // loginButton
     
     
 
