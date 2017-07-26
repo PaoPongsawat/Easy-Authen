@@ -15,6 +15,7 @@
 		0FF34D8C1F2887F300D4D984 /* Easy_AuthenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF34D8B1F2887F300D4D984 /* Easy_AuthenTests.swift */; };
 		0FF34D971F2887F300D4D984 /* Easy_AuthenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF34D961F2887F300D4D984 /* Easy_AuthenUITests.swift */; };
 		0FF34DA51F288BC800D4D984 /* logo_40pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF34DA41F288BC800D4D984 /* logo_40pkru.png */; };
+		0FF34DA71F289E7300D4D984 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 0FF34DA61F289E7300D4D984 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0FF34D961F2887F300D4D984 /* Easy_AuthenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_AuthenUITests.swift; sourceTree = "<group>"; };
 		0FF34D981F2887F300D4D984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FF34DA41F288BC800D4D984 /* logo_40pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_40pkru.png; path = ../../../../Downloads/logoPkru/logo_40pkru.png; sourceTree = "<group>"; };
+		0FF34DA61F289E7300D4D984 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		0FF34D6A1F2887F200D4D984 = {
 			isa = PBXGroup;
 			children = (
+				0FF34DA61F289E7300D4D984 /* README.md */,
 				0FF34D751F2887F300D4D984 /* Easy Authen */,
 				0FF34D8A1F2887F300D4D984 /* Easy AuthenTests */,
 				0FF34D951F2887F300D4D984 /* Easy AuthenUITests */,
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF34DA71F289E7300D4D984 /* README.md in Sources */,
 				0FF34D791F2887F300D4D984 /* ViewController.swift in Sources */,
 				0FF34D771F2887F300D4D984 /* AppDelegate.swift in Sources */,
 			);
