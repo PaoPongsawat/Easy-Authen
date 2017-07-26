@@ -14,6 +14,7 @@
 		0FF34D811F2887F300D4D984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF34D7F1F2887F300D4D984 /* LaunchScreen.storyboard */; };
 		0FF34D8C1F2887F300D4D984 /* Easy_AuthenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF34D8B1F2887F300D4D984 /* Easy_AuthenTests.swift */; };
 		0FF34D971F2887F300D4D984 /* Easy_AuthenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF34D961F2887F300D4D984 /* Easy_AuthenUITests.swift */; };
+		0FF34DA51F288BC800D4D984 /* logo_40pkru.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FF34DA41F288BC800D4D984 /* logo_40pkru.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		0FF34D921F2887F300D4D984 /* Easy AuthenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Easy AuthenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FF34D961F2887F300D4D984 /* Easy_AuthenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Easy_AuthenUITests.swift; sourceTree = "<group>"; };
 		0FF34D981F2887F300D4D984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF34DA41F288BC800D4D984 /* logo_40pkru.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_40pkru.png; path = ../../../../Downloads/logoPkru/logo_40pkru.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				0FF34D761F2887F300D4D984 /* AppDelegate.swift */,
 				0FF34D781F2887F300D4D984 /* ViewController.swift */,
+				0FF34DA41F288BC800D4D984 /* logo_40pkru.png */,
 				0FF34D7A1F2887F300D4D984 /* Main.storyboard */,
 				0FF34D7D1F2887F300D4D984 /* Assets.xcassets */,
 				0FF34D7F1F2887F300D4D984 /* LaunchScreen.storyboard */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF34DA51F288BC800D4D984 /* logo_40pkru.png in Resources */,
 				0FF34D811F2887F300D4D984 /* LaunchScreen.storyboard in Resources */,
 				0FF34D7E1F2887F300D4D984 /* Assets.xcassets in Resources */,
 				0FF34D7C1F2887F300D4D984 /* Main.storyboard in Resources */,
