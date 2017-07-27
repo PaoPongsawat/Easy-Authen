@@ -37,8 +37,17 @@ class ViewController: UIViewController {
         //Check User
         if let strMyUser = strDicUser[strUser] {
             print("User OK")
+            
+            //Check Password
+            
+            if strPassword == PasswordTextFind.text {
+                messageLabel.text = "Welcom User"
+            }else{
+                messageLabel.text = "Please Try Again Password False"
+            }
         }else{
             print("User False")
+            messageLabel.text = "No This User in my database"
         }
         
         
